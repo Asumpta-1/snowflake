@@ -1,11 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Square from "./Square";
+import Board from "./Board";
 
 function App() {
   return (
     <div className="App">
-      <Square />
+      <Board className="board" />
     </div>
   );
 }
